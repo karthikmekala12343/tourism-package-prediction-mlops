@@ -98,6 +98,14 @@ If these are not provided, it falls back to:
 - MLflow: https://mlflow.org/
 - Live App: https://tourism-package-prediction-mlops-mt2dvmefhtfcw3xvuhtswv.streamlit.app/
 
+### High-Level Architecture Diagram (Flowchart)
+
+![High-Level Architecture Diagram (Flowchart)](designs/High-Level-Architecture.png)
+
+### Sequence Diagram (Step-by-Step Flow)
+
+![Sequence Diagram (Step-by-Step Flow)](designs/SequenceDiagram.png)
+
 ## Test Evidences
 
 Project validation screenshots, logs, and output notes can be stored in the `test_evidences/` folder.
