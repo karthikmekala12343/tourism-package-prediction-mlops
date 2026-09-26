@@ -74,7 +74,9 @@ with mlflow.start_run(run_name="xgb_gridsearch"):
     mlflow.log_params(grid.best_params_)
     mlflow.log_metric("accuracy", acc)
     mlflow.log_metric("f1_score", f1)
-    mlflow.sklearn.log_model(best_model, "best_model")
+    
+    # Updated line with 'name' and 'input_example' 
+    mlflow.sklearn.log_model(best_model, name="best_model", input_example=Xtrain.head(2))
 
     print("Best params:", grid.best_params_)
     print(f"Accuracy: {acc:.4f}")
