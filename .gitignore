@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Jupyter / notebooks checkpoints
+.ipynb_checkpoints/
+
+# Generated model artifacts
+*.joblib
+*.pkl
+*.h5
+*.model
+
+# Large/generated data files
+*.parquet
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Build and coverage outputs
+build/
+dist/
+.coverage
+.pytest_cache/
+htmlcov/
